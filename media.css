@@ -440,3 +440,11 @@
         color: #4caf50;
     }
 }
+@media screen and (max-width: 430px) {
+    .banner-content {
+        flex-direction: column-reverse;
+    }
+    .banner {
+        padding-top: 0rem;
+    }
+}
