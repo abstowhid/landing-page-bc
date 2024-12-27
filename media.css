@@ -447,4 +447,7 @@
     .banner {
         padding-top: 0rem;
     }
+    .client-icons {
+    flex-direction: column;
+    }
 }
