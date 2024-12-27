@@ -450,4 +450,7 @@
     .client-icons {
     flex-direction: column;
     }
+    .client-icons i {
+    margin-bottom: 1rem;
+    }
 }
