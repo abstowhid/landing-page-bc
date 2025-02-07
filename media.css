@@ -6,7 +6,7 @@
         display: none;
     }
     .menu {
-        gap: 0.6rem;
+        gap: 0.5rem;
     }
     .header nav {
         align-items: center;
@@ -21,12 +21,15 @@
         color: #3263e9;
     }
     .register-btn {
-        padding: 0.6rem 0.1rem;
-        font-size: 0.5rem;
+        padding: 0.4rem 0.3rem;
+        font-size: 0.7rem;
         width: auto;
-        /* width: 5rem; */
-        height: 1.7rem;
+        height: auto;
         overflow: hidden;
+        margin-left: -0.4rem;
+    }
+    .hid {
+        display: none;
     }
     .banner {
         padding: 1rem;
@@ -448,9 +451,9 @@
         padding-top: 0rem;
     }
     .client-icons {
-    flex-direction: column;
+        flex-direction: column;
     }
     .client-icons i {
-    margin-bottom: 1rem;
+        margin-bottom: 1rem;
     }
 }
